@@ -1,0 +1,44 @@
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 30px 1px rgb(228, 227, 227);
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.discount{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+    background-color: rgb(169, 52, 52);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}

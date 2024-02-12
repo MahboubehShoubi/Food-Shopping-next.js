@@ -1,0 +1,20 @@
+.container h2{
+    font-size: 30px;
+    color: #25883D;
+}
+
+.container ul{
+    padding: 0;
+    list-style:none;
+}
+
+.container li{
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.container li::before{
+    content: "• ";
+    color: #25883D;
+}

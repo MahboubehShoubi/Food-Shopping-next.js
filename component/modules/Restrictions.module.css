@@ -1,0 +1,12 @@
+.container{
+    margin: 100px 0;
+}
+.container h2{
+    font-size: 30px;
+    color: #25883D;
+}
+
+.container p{
+    font-weight: 500;
+    line-height: 25px;
+}

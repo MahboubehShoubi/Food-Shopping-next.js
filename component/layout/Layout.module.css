@@ -1,0 +1,48 @@
+.container{
+    margin:0 auto;
+}
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15%;
+    align-items: center;
+}
+
+.headerLeft img{
+ width: 120px;
+}
+
+.headerRight{
+    width: fit-content;
+    display: flex;
+    column-gap: 20px;
+}
+
+.headerRight span{
+    font-weight: bolder;
+}
+
+.headerRight span:hover {
+    color: #25883D;
+}
+
+.children{
+    padding: 0 15%;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: fit-content;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.nameDeveloper{
+    color:#FF9733;
+    font-size: 14px;
+}

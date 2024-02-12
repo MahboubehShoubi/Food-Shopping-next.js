@@ -1,0 +1,134 @@
+.container{
+    margin-bottom: 100px;
+}
+.title{
+    font-size: 2rem;
+    width: fit-content;
+    border-bottom: 5px solid var(--green-main);
+}
+.header{
+    display: flex;
+    column-gap: 5%;
+    height: max-content;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.header img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.headerRight{
+    height: inherit;
+    display: grid;
+    gap: 25px;
+
+}
+.foodName{
+    color:var(--green-main);
+    font-size: 1.3rem;
+    margin: 0;
+
+}
+
+.Location span{
+    color: gray;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price span{
+    color: var(--red-discount);
+    font-weight: bold;
+}
+
+.discount{
+  display: inline-block;
+  background-color: var(--red-discount);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* --------------- introduction ----------*/
+
+.introduction{
+    margin-top: 50px;
+}
+
+.introduction p{
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+/* ---------------Details & Ingredients ------------------ */
+.subTitle{
+    color: var(--green-main);
+    font-size: 1.4rem;
+   margin: 80px 0 15px;
+}
+
+.details li {
+   line-height: 25px;
+}
+
+.details li::before , .ingredients li::before{
+    content: ". ";  
+    color: var(--green-main);
+    font-size: 2.5rem;
+}
+
+.details p{
+    display: inline;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.details span{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.ingredients li{
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* -------- Recipe --------- */
+.recipe div{
+    display: flex;
+    align-items: baseline;
+    column-gap: 8px;
+    padding:5px 10px;
+}
+
+.recipe span{
+    font-weight: bold;
+}
+
+.odd{
+    background-color:#41a75b; 
+}
+
+.even{
+    background-color:#a4f6b8;
+}
+
+/* -------- Add To Cart --------- */
+.container button{
+    background-color: var(--green-main);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+}

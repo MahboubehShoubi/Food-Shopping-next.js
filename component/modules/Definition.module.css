@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container h2{
+    color: #25883D;
+    font-size: 30px;
+}
+
+.container p{
+    line-height: 30px;
+    font-size: 17px;
+    word-spacing: 3px;
+    text-align: justify;
+}

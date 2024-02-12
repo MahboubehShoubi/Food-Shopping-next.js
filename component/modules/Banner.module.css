@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 48%;
+}
+
+.left h1{
+    width: fit-content;
+    border-bottom: 3px solid #25883D;
+}
+
+.left h4{
+    font-weight:normal;
+}
+
+.left p{
+    word-spacing: 5px;
+    color: #8080A1;
+    text-align: justify;
+}
+
+.left a{
+    background-color:#25883D;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+.right{
+    width: 48%;
+}
+
+.right img{
+    width: 100%;
+}

@@ -7,10 +7,11 @@ const Layout = ({children}) => {
             <header className={styles.headerContainer}>
                 <div className={styles.headerLeft}>
                     <Link href='/'>
-                    <img src="/image/food-logo.png" alt="logo"/>
+                    <img src="/logo/Shoub-Main-Logo.png" alt="logo"/>
                     </Link>
                 </div>
                 <div className={styles.headerRight}>
+                <img src="/image/food-logo.png" alt="logo"/>
                     <Link href="/menu">
                         <span>Menu</span>
                     </Link>

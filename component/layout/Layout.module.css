@@ -9,14 +9,20 @@
     align-items: center;
 }
 
-.headerLeft img{
+.headerLeft img , .headerRight img{
  width: 120px;
 }
+
+.headerRight img{
+    width: 120px;
+    margin-top: -10px;
+   }
 
 .headerRight{
     width: fit-content;
     display: flex;
     column-gap: 20px;
+    align-items: center;
 }
 
 .headerRight span{

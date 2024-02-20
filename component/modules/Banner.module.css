@@ -41,3 +41,29 @@
 .right img{
     width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+
+    .left h1{
+       font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left h1{
+        font-size: 1.5rem;
+    }
+    .right{
+        width: 100%;
+    }
+
+}

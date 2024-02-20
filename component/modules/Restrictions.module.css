@@ -10,3 +10,15 @@
     font-weight: 500;
     line-height: 25px;
 }
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 60px 0;
+    }
+    .container h2{
+        font-size: 1.7rem;
+    }
+
+    .container p{
+        font-size: 0.9rem;
+    }
+}

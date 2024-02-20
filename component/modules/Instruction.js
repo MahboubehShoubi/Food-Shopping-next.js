@@ -5,7 +5,6 @@ import styles from "./Instruction.module.css";
 const Instruction = () => {
     return (
         <div className={styles.container}>
-
             <h2>How to Order?</h2>
             <ul>
                 <li>Sign in (or create an account) and set your delivery address.</li>

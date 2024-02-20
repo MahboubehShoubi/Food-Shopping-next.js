@@ -14,3 +14,35 @@
     word-spacing: 3px;
     text-align: justify;
 }
+
+@media screen and (max-width: 900px) {
+    .container{
+        margin-top: 80px;
+    }
+
+    .container h2{
+        font-size: 1.7rem;
+    }
+
+    .container p{
+        line-height: 25px;
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin-top: 70px;
+    }
+
+    .container h2{
+        font-size: 1.7rem;
+    }
+
+    .container p{
+        line-height: 25px;
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+}

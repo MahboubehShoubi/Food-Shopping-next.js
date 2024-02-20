@@ -12,7 +12,6 @@ const menu = ({data}) => {
             <div className={styles.subContainer}>
                 {
                     data.map(food => (<Card key={food.id} {...food} />))
-                    
                 }
             </div>
         </div>

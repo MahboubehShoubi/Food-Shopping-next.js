@@ -22,3 +22,35 @@
     box-shadow: 5px 5px 30px 3px #e6fbeb;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin-top: 50px;
+    }
+
+    .container h2{
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        padding: 15px 45px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        margin-top: 50px;
+    }
+
+    .container h2{
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+    }
+    .card{
+        padding: 15px 45px;
+    }
+}

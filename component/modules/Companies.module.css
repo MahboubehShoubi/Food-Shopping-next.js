@@ -1,6 +1,14 @@
 .container{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:50px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding:0;
+    }
+
 }

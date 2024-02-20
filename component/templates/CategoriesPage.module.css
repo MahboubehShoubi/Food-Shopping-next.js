@@ -1,7 +1,5 @@
 .container {
-    max-width: 900px;
-    /*margin: auto;*/
-    /*margin-top: 100px;*/
+    max-width: 1200px;
 }
 
 .container h2 {
@@ -34,10 +32,11 @@
 }
 
 .cards {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 80px;
+    gap: 30px;
+    margin: 80px 0;
 }
 
 .cards img {
@@ -48,13 +47,18 @@
         padding: 20px;
     }
     .cards {
-        justify-content: space-around;
+        gap: 20px;
+        grid-template-columns: repeat(2 , 1fr);
     }
 }
 
 @media (max-width: 600px) {
     .container {
         padding: 10px;
+    }
+
+    .container h2{
+        font-size: 1.7rem;
     }
     .select {
         display: flex;
@@ -64,5 +68,9 @@
     .select select {
         width: 100%;
         margin: 0 0 20px;
+    }
+
+    .image{
+        width: 100%;
     }
 }

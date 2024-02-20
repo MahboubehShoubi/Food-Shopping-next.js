@@ -13,3 +13,17 @@
     text-align: center;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin-top: 70px;
+    }
+
+    .card{
+        box-shadow: 3px 3px 20px 2px #e6fbeb;
+        width: 30%;
+        padding: 10px 0;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}

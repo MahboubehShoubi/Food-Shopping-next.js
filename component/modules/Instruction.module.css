@@ -18,3 +18,15 @@
     content: "• ";
     color: #25883D;
 }
+
+@media screen and (max-width: 600px){
+    .container h2{
+        font-size: 1.7rem;
+    }
+
+
+    .container li{
+        line-height: 27px;
+        font-size: 0.9rem;
+    }
+}

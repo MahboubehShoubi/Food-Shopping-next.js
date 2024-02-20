@@ -11,21 +11,24 @@ const Card = (props) => {
         <div className={styles.container}>
             <Link href={`/menu/${id}`} >
                 <img src={`/image/${id}.jpeg`} />
-                <div className={styles.details}>
-                    <h4>{name}</h4>
-                    <div className={styles.location}>
-                        <Location />
-                        <span>{details[0].Cuisine}</span>
-                    </div>
+            </Link>
+            <div className={styles.details}>
+                <h4>{name}</h4>
+                <div className={styles.location}>
+                    <Location />
+                    <span>{details[0].Cuisine}</span>
                 </div>
-                <div className={styles.price}>
-                    <Dollar />
-                    <span>{price}$</span>
-                </div>
+            </div>
+            <div className={styles.price}>
+                <Dollar />
+                <span>{price}$</span>
+            </div>
+            <Link href={`/menu/${id}`} >
+                <button className={styles.detailBtn}>See Details</button>
+            </Link>
                 {
                   discount ? <span className={styles.discount}>{discount} %</span> : null
                 }
-            </Link>
         </div>
     );
 };

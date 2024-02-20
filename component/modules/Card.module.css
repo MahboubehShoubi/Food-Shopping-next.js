@@ -32,6 +32,17 @@
     padding: 10px;
 }
 
+.detailBtn{
+    width: 100%;
+    background-color: var(--green-main);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 .discount{
     position: absolute;
     top: 15px;
